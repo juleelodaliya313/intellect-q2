@@ -1,0 +1,94 @@
+.slot-picker {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.slot-button {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.slot-button.selected {
+  background-color: #007bff;
+  color: white;
+}
+
+.slot-button:hover {
+  border-color: #007bff;
+}
+
+.confirmation {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #007bff;
+  border-radius: 5px;
+  background-color: #f0f8ff;
+}
+
+/* menu */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.time-slot-picker {
+  position: relative;
+  max-width: 640px;
+  margin: 1em auto;
+}
+
+.time-slot-picker ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.time-slot-picker-menu {
+  height: 120px;
+  box-sizing: border-box;
+
+  white-space: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+
+  .time-slot-picker-item {
+    display: inline-block;
+    width: 100px;
+    height: 100%;
+    border: 1px solid #dee2e6;
+    border-radius: 1rem;
+    padding: 1em;
+    box-sizing: border-box;
+    margin-right: 10px;
+    text-align: center;
+    cursor: pointer;
+  }
+}
+
+.time-slot-picker-menu .time-slot-picker-item:first-child {
+  margin-left: 10px;
+}
+
+.time-slot-picker-menu::-webkit-scrollbar {
+  width: px;
+  height: 6px;
+  border-radius: 10px;
+  scrollbar-width: thin;
+}
+
+/* Track */
+.time-slot-picker-menu::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: white;
+}
+
+/* Handle */
+.time-slot-picker-menu::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: #E3EAF0;
+}
