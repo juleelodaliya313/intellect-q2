@@ -4,7 +4,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 # Demo
 
-- [Deployed demo]().
+- [Deployed demo](https://intellect-q2.vercel.app).
 
 ## Available Scripts
 
